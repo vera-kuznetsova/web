@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Немного обо мне</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Домашняя страница</a></li>
+                <li><a href="about.html">Учеба</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Обо мне</h2>
+            <ul>
+                <li>Меня зовут Кузнецова Вера</li>
+                <li>Мне 19 лет</li>
+                <li>Я учусь в Московском Политехе</li>
+            </ul>
+            <img src="ya.jpg" alt="Фотография Веры" class="resized-image">
+        </section>
+
+        <section>
+            <h2>Контакты</h2>
+            <address>
+                <p>
+                    Email: <a href="mailto:your_email@example.com">your_email@example.com</a><br>
+                    Телефон:   +7......
+                </p>
+            </address>
+        </section>
+    </main>
